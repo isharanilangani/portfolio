@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo5-fotor-bg-remover-20230904185644.png">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer(Internship)</p>
+                <h1>Hi,I'm <span> Ishara </span>Dabarera <br>from Sri Lanka.</h1>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-co-1">
+                    <img src="images/n1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a fast learner who adapts quickly to change and eager to learn new methods and technologies, and work as an effective team member.Intend to work hard for the advancement of any project that I’m working on.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('expirience')">Expirience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming</span><br>JavaScript,ReactJS,PHP,MySQL,Python,Java,HTML,CSS</li>
+                        <li><span>Technologies</span><br>Django, MS PowerBI</li>
+                        <li><span>Communication</span><br>Sinhala(native),English ( professional Working Proficiency)</li>
+                        <li><span>Soft Skill</span><br>Good interpersonal skill, Flexible, Organized , Team work</li>
+                        <li><span>Other</span><br>GitHub, Figma</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="expirience">
+                    <ul>
+                        <li><span>2019-2020</span><br>Tranee in Sampath Bank</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-Present</span><br>BSc(Hons) in Computing & Information Systems-Sabaragamuwa University of Sri Lanka</li>
+                        <li><span>2019-2020</span><br>Diploma in Information Technology-Esoft Metro Campus,Rathnapura</li>
+                        <li><span>2009-2018</span><br>G.C.E advanced Level in 2018 Physical Sciences Stream-R/Eheliyagoda Central College,Eheliyagoda</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Boostrap,ReactJS.These frameworks include pre-written HTML, CSS, and JavaScript code, as well as design patterns and components.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Adobe XD,Figma,Adobe Photoshop,Adobe Illustrator</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>React Native,Flutter (UI Toolkit by Google) is a UI toolkit by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. It provides a customizable UI framework that allows designers to create visually appealing app interfaces.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pizza.png">
+                    <div class="layer">
+                        <h3>Pizza Ordering System</h3>
+                        <p>A Pizza Ordering System developed with Laravel and PHP is a user-friendly web application that streamlines the process of ordering delicious pizzas online.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/educa.png">
+                    <div class="layer">
+                        <h3>Educational Website</h3>
+                        <p>A responsive educational website created with HTML, CSS, and JavaScript aims to provide an engaging and accessible learning experience. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/chatlib.png">
+                    <div class="layer">
+                        <h3>Chatlib</h3>
+                        <p>project is to develop a contextual AI assistant application that interprets and responses to inputs in the form of text and voice from visitors on mobile app and provides an admin panel. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="Sub-title">Contact Me</h1>
+                    <p>isharaecc1998@gmail.com</p>
+                    <p>0778467229</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Professional CV Resume (1).pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Massege" rows="6" placeholder="Your Massege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copy right 0 ishara. made with <i class="fas fa-heart"></i> by easy Tutorial.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzwqwseBYN_eLnMHlosgbdAvbQOqNy6QACXsmP2WKUOOPXaUlVxbfZNHoqqN0cfME1z/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Massege sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
